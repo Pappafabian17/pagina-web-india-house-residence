@@ -1,0 +1,68 @@
+.custom-bg-color {
+  background-color: #000000; /* Reemplaza con tu color personalizado en formato hexadecimal, RGB, u otro */
+}
+.sas {
+  color: #fff;
+}
+
+.custom-bg-color .navbar-nav .nav-link:hover {
+  color: #b3a3a3 !important; /* Reemplaza con tu color preferido para el hover */
+}
+.custom-bg-color .navbar-nav .nav-link {
+  position: relative;
+  color: white !important; /* Asegúrate de que el color del texto sea blanco */
+}
+
+.custom-bg-color .navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: rgb(117, 84, 179);
+  bottom: 0;
+  left: 0;
+  transition: width 0.3s ease;
+}
+
+.custom-bg-color .navbar-nav .nav-link:hover::after {
+  width: 100%;
+}
+.cuerpo-container {
+  background-color: #000000;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.section-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+  flex-direction: column;
+}
+
+.descripcion {
+  width: 58vw;
+}
+.image-cuerpo {
+  min-width: 120px;
+  max-width: 400px;
+}
+
+@media screen and (min-width: 699px) {
+  .section-1 {
+    flex-direction: row;
+    padding: 40px;
+  }
+  .descripcion {
+    width: 42vw;
+    font-size: 1.3rem;
+  }
+  .image-cuerpo {
+    min-width: 200px;
+  }
+  .reverse {
+    flex-direction: row-reverse;
+  }
+}
