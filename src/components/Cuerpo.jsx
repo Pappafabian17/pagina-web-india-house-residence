@@ -20,7 +20,11 @@ export default function Cuerpo() {
             fomentamos la cultura electrónica desde lo más profundo de los
             sonidos.
           </p>
-          <img src="../../assets/img/logo2.png" className="image-cuerpo" />
+          <img
+            src="../../assets/img/logo2.png"
+            data-aos="flip-left"
+            className="image-cuerpo"
+          />
         </div>
         <div className="section-1 reverse">
           <p
@@ -39,6 +43,7 @@ export default function Cuerpo() {
           <img
             src="../../assets/img/concept-mooving.png"
             className="image-cuerpo"
+            data-aos="flip-right"
           />
         </div>
         <div className="section-1">
@@ -58,7 +63,11 @@ export default function Cuerpo() {
             eventos, con platos elaborados por personas capacitadas para ese
             tipo de cocina, que son platos de autor.
           </p>
-          <img src="../../assets/img/lentes.png" className="image-cuerpo" />
+          <img
+            src="../../assets/img/lentes.png"
+            data-aos="flip-left"
+            className="image-cuerpo"
+          />
         </div>
       </div>
     </>

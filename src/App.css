@@ -1,3 +1,8 @@
+.main-container {
+  background-color: #000000;
+  color: #000;
+  overflow: hidden;
+}
 .custom-bg-color {
   background-color: #000000; /* Reemplaza con tu color personalizado en formato hexadecimal, RGB, u otro */
 }
@@ -47,7 +52,31 @@
 }
 .image-cuerpo {
   min-width: 120px;
-  max-width: 400px;
+  max-width: 347px;
+}
+.sobreNosotrosContainer {
+  background-color: #000000;
+  color: #fff;
+  padding: 60px;
+  div {
+    overflow: hidden;
+  }
+  h3 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 30px 0;
+  }
+  p {
+    font-size: 1.3rem;
+  }
+}
+
+/* About page  */
+
+.aboutPageContainer {
+  background-color: #000;
+  color: #fff;
+  padding: 60px;
 }
 
 @media screen and (min-width: 699px) {
