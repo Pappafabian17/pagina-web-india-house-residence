@@ -78,11 +78,20 @@ export default function AboutPage() {
 
       <p>
         Logramos hacer eventos con productoras consagradas de la ciudad y de
-        afuera en co-producciones que nos enorgullece nombrar como Soundaka MDP,
-        Underworld (Bs.As.), Concept Mooving (Bs.As.), Dreamers Music MDQ. Nos
-        invitaron a participar en radio en vivo en programas como Tendencias
-        Urbanas, FM Compacto MdQ, Radio Low Track Catamarca, Radio M4U radioua
-        Ucrania.
+        afuera en co-producciones que nos enorgullece nombrar como
+        <ul>
+          <li>Soundaka MDP</li>
+          <li>Underworld (Bs.As.)</li>
+          <li>Concept Mooving (Bs.As.)</li>
+          <li>Dreamers Music MDQ</li>
+        </ul>
+        Nos invitaron a participar en radio en vivo en programas como
+        <ul>
+          <li>Tendencias Urbanas</li>
+          <li>FM Compacto MdQ</li>
+          <li>Radio Low Track Catamarca</li>
+          <li>Radio M4U radioua Ucrania</li>
+        </ul>
       </p>
 
       <p>

@@ -6,6 +6,8 @@ import Cuerpo from "./components/Cuerpo";
 import About from "./components/About";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import AboutPage from "./components/AboutPage";
+import SoundcloudPlayer from "./components/SoundcloudPlayer";
+import Colaboradores from "./components/Colaboradores";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
                 <ImageCarousel />
                 <Cuerpo />
                 <About />
+                <SoundcloudPlayer />
+                <Colaboradores />
               </>
             }
           />
