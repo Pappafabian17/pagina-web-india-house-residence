@@ -70,6 +70,14 @@
     font-size: 1.3rem;
   }
 }
+.musica-titulo {
+  color: #fff;
+  padding: 0 20px;
+}
+.reproductor-container {
+  padding: 0 20px;
+  margin-bottom: 30px;
+}
 
 /* About page  */
 

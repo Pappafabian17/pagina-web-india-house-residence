@@ -7,7 +7,9 @@ import About from "./components/About";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import AboutPage from "./components/AboutPage";
 import SoundcloudPlayer from "./components/SoundcloudPlayer";
+import Card from "./components/Card";
 import Colaboradores from "./components/Colaboradores";
+import Contacto from "./components/Contacto";
 
 function App() {
   return (
@@ -23,11 +25,13 @@ function App() {
                 <Cuerpo />
                 <About />
                 <SoundcloudPlayer />
-                <Colaboradores />
+                <Card />
               </>
             }
           />
           <Route path="/about" Component={AboutPage} />
+          <Route path="/colaboradores" Component={Colaboradores} />
+          <Route path="/contacto" Component={Contacto} />
         </Routes>
       </div>
     </Router>

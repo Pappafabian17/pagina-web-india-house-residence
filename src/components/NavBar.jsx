@@ -32,10 +32,10 @@ export default function NavBar() {
             <Nav.Link href="#action2" className="text-white fs-4 me-3">
               Eventos
             </Nav.Link>
-            <Nav.Link href="#action3" className="text-white fs-4 me-3">
+            <Nav.Link href="/colaboradores" className="text-white fs-4 me-3">
               Colaboradores
             </Nav.Link>
-            <Nav.Link href="#action4" className="text-white fs-4 me-3">
+            <Nav.Link href="/contacto" className="text-white fs-4 me-3">
               Contacto
             </Nav.Link>
           </Nav>
