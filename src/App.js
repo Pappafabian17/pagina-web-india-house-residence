@@ -25,7 +25,6 @@ function App() {
                 <Cuerpo />
                 <About />
                 <SoundcloudPlayer />
-                <Card />
               </>
             }
           />
