@@ -77,7 +77,7 @@
   margin: 5px;
   padding: 0;
   border-radius: 8px;
-  border: 3px solid red;
+  border: 3px solid rgb(117, 84, 179);
 }
 
 .card:hover {
@@ -122,6 +122,13 @@
 
 .card-back {
   transform: rotateY(180deg);
+  background-color: rgb(117, 84, 179);
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.card-text {
+  text-align: center;
 }
 
 @media (max-width: 768px) {

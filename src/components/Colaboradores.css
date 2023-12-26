@@ -1,6 +1,17 @@
 .colaboradores-container {
   height: 100%;
+  padding: 40px;
 }
 .cards-container {
   padding: 0 30px;
+}
+.colaboremos-container {
+  display: flex;
+  margin-top: 60px;
+  flex-direction: column;
+  color: #fff;
+  h3 {
+    margin: 20px 0 70px 0;
+    padding: 0 30px;
+  }
 }

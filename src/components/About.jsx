@@ -4,7 +4,7 @@ export default function () {
   return (
     <div className="sobreNosotrosContainer">
       <div data-aos="flip-down">
-        <h2>Sobre Nosotros</h2>
+        <h2 className="about-title">Sobre Nosotros</h2>
         <h3> India House Resistance</h3>
 
         <p>

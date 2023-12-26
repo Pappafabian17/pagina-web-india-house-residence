@@ -8,6 +8,7 @@
 }
 .sas {
   color: #fff;
+  font-size: 3rem;
 }
 
 .custom-bg-color .navbar-nav .nav-link:hover {
@@ -17,7 +18,9 @@
   position: relative;
   color: white !important; /* Asegúrate de que el color del texto sea blanco */
 }
-
+.about-title {
+  color: #fff;
+}
 .custom-bg-color .navbar-nav .nav-link::after {
   content: "";
   position: absolute;

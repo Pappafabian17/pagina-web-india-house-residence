@@ -15,7 +15,7 @@ const Card = ({ id, imageUrl, text }) => {
           <img src={imageUrl} alt={`Card ${id}`} />
         </div>
         <div className="card-back">
-          <p>{text}</p>
+          <p className="card-text">{text}</p>
         </div>
       </div>
     </div>
