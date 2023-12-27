@@ -36,7 +36,7 @@ export default function () {
           forma más pública, creando así de esa sala un espacio cultural, un
           lugar de desarrollo artístico.
         </p>
-        <RedirectButton to="/about" text="Conoce mas sobre Nosotros!" />
+        <RedirectButton to="/contacto" text="Conoce mas sobre Nosotros!" />
       </div>
     </div>
   );

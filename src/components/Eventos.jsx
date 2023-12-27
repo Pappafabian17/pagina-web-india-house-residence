@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Card from "./Card";
-import "./colaboradores.css";
+import "./Colaboradores.css";
 import { eventsCardContent } from "../utils/utils";
 import RedirectButton from "./RedirectButton";
 export default function Eventos() {
@@ -15,7 +15,7 @@ export default function Eventos() {
 
       <div className="colaboremos-container">
         <h3>Conocé los próximos eventos</h3>
-        <RedirectButton to="/about" text="Conoce los próximos eventos!" />
+        <RedirectButton to="/contacto" text="Conoce los próximos eventos!" />
       </div>
     </div>
   );
