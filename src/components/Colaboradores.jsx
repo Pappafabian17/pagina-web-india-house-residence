@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Card from "./Card";
 import "./Colaboradores.css";
 import { cardsContent } from "../utils/utils";
-import RedirectButton from "./RedirectButton";
+import ContactUsButton from "./ContactUsButton";
 
 const Colaboradores = () => {
   return (
@@ -16,7 +16,7 @@ const Colaboradores = () => {
 
       <div className="colaboremos-container">
         <h3>Conocenos más y colaborá con nosotros</h3>
-        <RedirectButton to="/contacto" text="Colabora con nosotros!" />
+        <ContactUsButton text="Colabora con nosotros!" />
       </div>
     </div>
   );

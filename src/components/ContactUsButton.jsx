@@ -1,21 +1,17 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "./RedirectButton.css";
+import "./ContactUsButton.css";
 import useWindowSize from "../Hooks/useWindowSize";
 
-const RedirectButton = ({ to, text }) => {
+const ContactUsButton = ({text }) => {
   const navigate = useNavigate();
   const windowWidth = useWindowSize();
 
-  const handleClick = () => {
-    navigate(to);
-  };
-
   return (
-    <button className="navigate-button" onClick={handleClick}>
+    <a className="navigate-button" href="https://us21.list-manage.com/contact-form?u=8f6c801822838c236cbb87dfa&form_id=1e07e3ab04bd06831bc5764a1a4db716">
       {windowWidth > 699 ? text : "Conoce más"}
-    </button>
+    </a>
   );
 };
 
-export default RedirectButton;
+export default ContactUsButton;

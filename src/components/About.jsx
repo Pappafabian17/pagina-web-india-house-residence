@@ -1,4 +1,4 @@
-import RedirectButton from "./RedirectButton";
+import ContactUsButton from "./ContactUsButton";
 
 export default function () {
   return (
@@ -36,7 +36,7 @@ export default function () {
           forma más pública, creando así de esa sala un espacio cultural, un
           lugar de desarrollo artístico.
         </p>
-        <RedirectButton to="/contacto" text="Conoce mas sobre Nosotros!" />
+        <ContactUsButton text="Conoce mas sobre Nosotros!" />
       </div>
     </div>
   );

@@ -38,7 +38,7 @@ export default function NavBar() {
             <Nav.Link href="/about" className="text-white fs-4 me-3">
               Sobre Nosotros
             </Nav.Link>
-            <Nav.Link href="/contacto" className="text-white fs-4 me-3">
+            <Nav.Link href="https://us21.list-manage.com/contact-form?u=8f6c801822838c236cbb87dfa&form_id=1e07e3ab04bd06831bc5764a1a4db716" className="text-white fs-4 me-3">
               Contacto
             </Nav.Link>
           </Nav>

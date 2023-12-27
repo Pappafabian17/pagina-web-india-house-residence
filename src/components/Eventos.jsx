@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Card from "./Card";
 import "./Colaboradores.css";
 import { eventsCardContent } from "../utils/utils";
-import RedirectButton from "./RedirectButton";
+import ContactUsButton from "./ContactUsButton";
 export default function Eventos() {
   return (
     <div className="colaboradores-container">
@@ -15,7 +15,7 @@ export default function Eventos() {
 
       <div className="colaboremos-container">
         <h3>Conocé los próximos eventos</h3>
-        <RedirectButton to="/contacto" text="Conoce los próximos eventos!" />
+        <ContactUsButton text="Conoce los próximos eventos!" />
       </div>
     </div>
   );
