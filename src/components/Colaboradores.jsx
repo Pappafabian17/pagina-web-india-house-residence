@@ -5,7 +5,6 @@ import { cardsContent } from "../utils/utils";
 import RedirectButton from "./RedirectButton";
 
 const Colaboradores = () => {
-  console.log(cardsContent);
   return (
     <div className="colaboradores-container">
       <h2 className="musica-titulo ">Algunos de nuestros Colaboradores</h2>

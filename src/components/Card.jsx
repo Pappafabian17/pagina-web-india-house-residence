@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Card.css";
 
-const Card = ({ id, imageUrl, text }) => {
+const Card = ({ id, imageUrl, text, isEvent }) => {
   const [isFlipped, setIsFlipped] = useState(false);
 
   const handleFlip = () => {
@@ -14,8 +14,8 @@ const Card = ({ id, imageUrl, text }) => {
         <div className="card-front">
           <img src={imageUrl} alt={`Card ${id}`} />
         </div>
-        <div className="card-back">
-          <p className="card-text">{text}</p>
+        <div className={` ${isEvent ? "card-back-event" : "card-back"} `}>
+          {isEvent ? "" : <p className="card-text">{text}</p>}
         </div>
       </div>
     </div>

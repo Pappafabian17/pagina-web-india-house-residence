@@ -26,14 +26,17 @@ export default function NavBar() {
             style={{ maxHeight: "100%" }}
             navbarScroll
           >
-            <Nav.Link href="/about" className="text-white fs-4 me-3">
-              Sobre Nosotros
+            <Nav.Link href="/#" className="text-white fs-4 me-3">
+              Inicio
             </Nav.Link>
-            <Nav.Link href="#action2" className="text-white fs-4 me-3">
+            <Nav.Link href="/eventos" className="text-white fs-4 me-3">
               Eventos
             </Nav.Link>
             <Nav.Link href="/colaboradores" className="text-white fs-4 me-3">
               Colaboradores
+            </Nav.Link>
+            <Nav.Link href="/about" className="text-white fs-4 me-3">
+              Sobre Nosotros
             </Nav.Link>
             <Nav.Link href="/contacto" className="text-white fs-4 me-3">
               Contacto
