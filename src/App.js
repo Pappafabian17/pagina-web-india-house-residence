@@ -11,6 +11,7 @@ import Card from "./components/Card";
 import Colaboradores from "./components/Colaboradores";
 import Contacto from "./components/Contacto";
 import Eventos from "./components/Eventos";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
           <Route path="/contacto" Component={Contacto} />
           <Route path="/eventos" Component={Eventos} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Card from "./Card";
-import "./Colaboradores.css";
+import "./colaboradores.css";
 import { eventsCardContent } from "../utils/utils";
 import ContactUsButton from "./ContactUsButton";
 export default function Eventos() {
@@ -14,7 +14,6 @@ export default function Eventos() {
       </div>
 
       <div className="colaboremos-container">
-        <h3>Conocé los próximos eventos</h3>
         <ContactUsButton text="Conoce los próximos eventos!" />
       </div>
     </div>

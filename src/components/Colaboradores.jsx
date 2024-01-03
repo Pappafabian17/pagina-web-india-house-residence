@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Card from "./Card";
-import "./Colaboradores.css";
+import "./colaboradores.css";
 import { cardsContent } from "../utils/utils";
 import ContactUsButton from "./ContactUsButton";
 
