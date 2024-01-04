@@ -1,5 +1,28 @@
 .footer {
   background-image: url(../../public/assets/img/new_wave_970.5940767021837.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 500px;
-  background-color: red;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.social-button {
+  text-align: center;
+}
+
+.social-button img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.social-button p {
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-weight: bold;
+  color: #ffffff;
 }

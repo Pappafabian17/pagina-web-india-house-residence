@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Card from "./Card";
-import "./colaboradores.css";
+import "./Colaboradores.css";
 import { eventsCardContent } from "../utils/utils";
 import ContactUsButton from "./ContactUsButton";
 export default function Eventos() {

@@ -25,49 +25,14 @@ const Contacto = () => {
   };
 
   return (
-    <div className="contacto-container">
-      <div className="contacto">
-        <h2>Contacto</h2>
-        <form onSubmit={handleSubmit}>
-          <label>
-            Nombre:
-            <input
-              type="text"
-              name="nombre"
-              value={formData.nombre}
-              onChange={handleChange}
-            />
-          </label>
-          <label>
-            Apellido:
-            <input
-              type="text"
-              name="apellido"
-              value={formData.apellido}
-              onChange={handleChange}
-            />
-          </label>
-          <label>
-            Email:
-            <input
-              type="email"
-              name="email"
-              value={formData.email}
-              onChange={handleChange}
-            />
-          </label>
-          <label>
-            Motivo:
-            <textarea
-              name="motivo"
-              value={formData.motivo}
-              onChange={handleChange}
-            />
-          </label>
-          <button type="submit">Enviar</button>
-        </form>
-      </div>
-    </div>
+    <iframe
+      id="contactPageIframe"
+      title="Inline Frame for Contact us."
+      width="100%"
+      height="1200px"
+      scrolling="no"
+      src="https://us21.list-manage.com/contact-form?u=759053ab0594a2424f12ec2f1&form_id=cf8693072710dc72806759347bec5f55">
+    </iframe>
   );
 };
 
