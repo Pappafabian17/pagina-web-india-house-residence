@@ -13,16 +13,17 @@
 }
 
 .social-button img {
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
   object-fit: cover;
   border-radius: 50%;
 }
 
 .social-button p {
   margin-top: 10px;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
   font-weight: bold;
   color: #ffffff;
+  font-size:small;
 }

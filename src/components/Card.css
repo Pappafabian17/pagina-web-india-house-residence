@@ -119,13 +119,19 @@
   justify-content: center;
   align-items: center;
   background-image: url(../../public/assets/img/logo2.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #000;
 }
+
 .card-back-event {
   transform: rotateY(180deg);
   color: #fff;
   font-size: 1.4rem;
   font-weight: 500;
 }
+
 .card-front img {
   max-width: 100%;
   max-height: 100%;
@@ -143,6 +149,7 @@
   font-size: 1.4rem;
   font-weight: 500;
 }
+
 .card-text {
   text-align: center;
 }
